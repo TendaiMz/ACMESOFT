@@ -1,0 +1,12 @@
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY\bin\Debug\ACME_REPOSITORY.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY\bin\Debug\ACME_REPOSITORY.pdb
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY\obj\Debug\ACME_REPOSITORY.csprojResolveAssemblyReference.cache
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY\obj\Debug\ACME_REPOSITORY.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY\obj\Debug\ACME_REPOSITORY.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\bin\Debug\ACME_REPOSITORY.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\bin\Debug\ACME_REPOSITORY.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\bin\Debug\ACME_DOMAIN.CLASSES.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\bin\Debug\ACME_DOMAIN.CLASSES.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\obj\Debug\ACME_REPOSITORY.csprojResolveAssemblyReference.cache
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\obj\Debug\ACME_REPOSITORY.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY\obj\Debug\ACME_REPOSITORY.pdb

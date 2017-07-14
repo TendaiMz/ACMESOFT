@@ -1,0 +1,40 @@
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY.Tests\obj\Debug\ACME_REPOSITORY.Tests.csprojResolveAssemblyReference.cache
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY.Tests\obj\Debug\ACME_REPOSITORY.Tests.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_REPOSITORY.Tests\obj\Debug\ACME_REPOSITORY.Tests.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ApplicationInsights.config
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_REPOSITORY.Tests.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_REPOSITORY.Tests.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_DOMAIN.CLASSES.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_REPOSITORY.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_REPOSITORY.MSSQL.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_WCF.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Castle.Core.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\FluentAssertions.Core.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\FluentAssertions.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Moq.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\EntityFramework.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\AutoMapper.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\WebActivatorEx.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.Web.Common.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.Web.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_DOMAIN.CLASSES.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_REPOSITORY.MSSQL.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_REPOSITORY.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\ACME_WCF.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\FluentAssertions.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\FluentAssertions.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\FluentAssertions.Core.pdb
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\FluentAssertions.Core.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Moq.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\EntityFramework.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\AutoMapper.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.Web.Common.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.Web.xml
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\obj\Debug\ACME_REPOSITORY.Tests.csprojResolveAssemblyReference.cache
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\obj\Debug\ACME_REPOSITORY.Tests.dll
+C:\Projects\Repos\ACME_TEST\ACME_REPOSITORY.Tests\obj\Debug\ACME_REPOSITORY.Tests.pdb

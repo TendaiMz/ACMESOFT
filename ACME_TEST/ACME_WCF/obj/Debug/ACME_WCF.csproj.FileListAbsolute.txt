@@ -1,0 +1,70 @@
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\ApplicationInsights.config
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\ACME_WCF.dll.config
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\ACME_WCF.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\ACME_WCF.pdb
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\AutoMapper.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.Web.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.Extensions.Wcf.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.Web.Common.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.Web.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\WebActivatorEx.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\AutoMapper.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.Web.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.Extensions.Wcf.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.Web.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\bin\Ninject.Web.Common.xml
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.csprojResolveAssemblyReference.cache
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.dll
+C:\Users\TENDAI\Documents\Visual Studio 2015\Projects\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.pdb
+C:\Projects\Repos\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.csprojResolveAssemblyReference.cache
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ApplicationInsights.config
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_WCF.dll.config
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_WCF.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_WCF.pdb
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_DOMAIN.CLASSES.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_REPOSITORY.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_REPOSITORY.MSSQL.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\AutoMapper.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.Web.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.Extensions.Wcf.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.Web.Common.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.Web.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\WebActivatorEx.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\EntityFramework.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_DOMAIN.CLASSES.pdb
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_REPOSITORY.MSSQL.pdb
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\ACME_REPOSITORY.pdb
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\AutoMapper.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.Web.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.Extensions.Wcf.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.Web.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\Ninject.Web.Common.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\bin\EntityFramework.xml
+C:\Projects\Repos\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.dll
+C:\Projects\Repos\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.pdb
