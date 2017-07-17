@@ -1,6 +1,7 @@
 ﻿using ACME_DOMAIN.CLASSES;
 using ACME_REPOSITORY.MSSQL.MODELS;
 using AutoMapper;
+using RefactorThis.GraphDiff;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -38,7 +39,7 @@ namespace ACME_REPOSITORY.MSSQL
 
         public EmployeeDTO Find(int id)
         {
-            var kk = _context.Employee.Include(x => x.Person).First(y => y.EmployeeId == id);
+
             return MapToDTO(_context.Employee.Include(x => x.Person).First(y => y.EmployeeId == id));
         }
 
@@ -50,15 +51,9 @@ namespace ACME_REPOSITORY.MSSQL
 
         public void Update(EmployeeDTO employee)
         {
-            var person = employee.Person;
-            _context.Entry(MapToEntity(employee)).State = EntityState.Modified;
+            _context.UpdateGraph(MapToEntity(employee), map => map.OwnedEntity(p => p.Person));
             _context.SaveChanges();
 
-            //  _context.Employee.Attach(MapToEntity(employee));
-            //  _context.Entry(MapToEntity(employee)).State = EntityState.Modified;
-            //  _context.Person.Attach(MapToEntity(employee.Person));
-            //_context.Entry(MapToEntity(employee.Person)).State = EntityState.Modified;
-            //_context.SaveChanges();
         }
 
         private Person MapToEntity(PersonDTO personDTO)

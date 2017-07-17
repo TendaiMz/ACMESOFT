@@ -186,3 +186,7 @@ C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\bin\Newtonsoft.Json.xml
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\obj\Debug\ACMEAPP.dll
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\obj\Debug\ACMEAPP.pdb
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\obj\Debug\ACMEAPP.csprojResolveAssemblyReference.cache
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\bin\Castle.Core.dll
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\bin\Moq.dll
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\bin\Moq.pdb
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACMEAPP\bin\Moq.xml

@@ -85,15 +85,7 @@ namespace ACME_REPOSITORY.MSSQL.Migrations
             {
                 context.Employee.AddOrUpdate(employee);               
             }
-
-           // base.Seed(context);
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+         
         }
     }
 }

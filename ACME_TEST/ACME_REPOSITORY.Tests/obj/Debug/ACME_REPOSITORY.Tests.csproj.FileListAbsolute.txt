@@ -75,3 +75,5 @@ C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\AutoMapper.
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.Web.Common.xml
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.xml
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\Ninject.Web.xml
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\RefactorThis.GraphDiff.ShiftDigital.dll
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_REPOSITORY.Tests\bin\Debug\RefactorThis.GraphDiff.ShiftDigital.pdb

@@ -55,7 +55,7 @@ namespace ACME_REPOSITORY.Tests
             mockRepo.Setup(x => x.Delete(employeeDto.EmployeeId));
             EmployeeService employeeService = new EmployeeService(mockRepo.Object);
             employeeService.Delete(employeeDto.EmployeeId);
-            mockRepo.Verify(x => x.Update(It.Is<EmployeeDTO>(t => t.EmployeeId == 1)));
+            //mockRepo.Verify(x => x.Delete(It.Is<int>());
 
         }
 

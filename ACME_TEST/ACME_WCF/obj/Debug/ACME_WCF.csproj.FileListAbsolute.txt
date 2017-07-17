@@ -107,3 +107,5 @@ C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_WCF\bin\EntityFramework.xml
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.csprojResolveAssemblyReference.cache
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.dll
 C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_WCF\obj\Debug\ACME_WCF.pdb
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_WCF\bin\RefactorThis.GraphDiff.ShiftDigital.dll
+C:\Projects\Repos\ACMESOFT\ACME_TEST\ACME_WCF\bin\RefactorThis.GraphDiff.ShiftDigital.pdb
