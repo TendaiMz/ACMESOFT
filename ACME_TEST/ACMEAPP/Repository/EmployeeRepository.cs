@@ -15,10 +15,10 @@ namespace ACMEAPP.Repository
             client.Close();
         }
 
-        public void DeleteEmployee(EmployeeModel employee)
+        public void DeleteEmployee(int id)
         {
             ACME_ServiceReference.EmployeeServiceClient client = new ACME_ServiceReference.EmployeeServiceClient();
-            client.Delete(ObjectMapper.MapToDTO(employee));
+            client.Delete(id);
             client.Close();
         }
 
@@ -46,3 +46,7 @@ namespace ACMEAPP.Repository
         }
     }
 }
+
+
+
+

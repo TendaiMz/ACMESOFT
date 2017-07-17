@@ -22,9 +22,9 @@ namespace ACME_WCF.Services
             _repo.Insert(employeeDTO);
         }
 
-        public void Delete(EmployeeDTO employeeDTO)
+        public void Delete(int id)
         {
-            _repo.Delete(employeeDTO);
+            _repo.Delete(id);
         }
 
         public void Update(EmployeeDTO employeeDTO)

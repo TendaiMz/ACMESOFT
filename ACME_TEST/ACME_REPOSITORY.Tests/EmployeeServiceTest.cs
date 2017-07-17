@@ -52,9 +52,9 @@ namespace ACME_REPOSITORY.Tests
             employeeDto.EmployeeNumber = "AX100";
             employeeDto.EmployeeId = 1;
             Mock<IEmployeeRepository> mockRepo = new Mock<IEmployeeRepository>();
-            mockRepo.Setup(x => x.Delete(employeeDto));
+            mockRepo.Setup(x => x.Delete(employeeDto.EmployeeId));
             EmployeeService employeeService = new EmployeeService(mockRepo.Object);
-            employeeService.Delete(employeeDto);
+            employeeService.Delete(employeeDto.EmployeeId);
             mockRepo.Verify(x => x.Update(It.Is<EmployeeDTO>(t => t.EmployeeId == 1)));
 
         }

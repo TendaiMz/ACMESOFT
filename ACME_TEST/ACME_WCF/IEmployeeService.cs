@@ -12,7 +12,7 @@ namespace ACME_WCF
         [OperationContract]
         void Update(EmployeeDTO person);
         [OperationContract]
-        void Delete(EmployeeDTO person);
+        void Delete(int id);
         [OperationContract]
         IEnumerable<EmployeeDTO> GetAll();
         [OperationContract]

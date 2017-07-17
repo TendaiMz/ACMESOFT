@@ -9,6 +9,6 @@ namespace ACMEAPP.Repository
         EmployeeModel GetEmployee(int id);
         IEnumerable<EmployeeModel> GetAllEmployees();
         void UpdateEmployee(EmployeeModel employee);
-        void DeleteEmployee(EmployeeModel employee);
+        void DeleteEmployee(int id);
     }
 }

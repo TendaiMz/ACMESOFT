@@ -57,7 +57,7 @@ namespace ACMEAPP.Controllers
 
         // POST: Employee/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, EmployeeModel employee)
+        public ActionResult Edit(EmployeeModel employee)
         {
             try
             {
@@ -82,8 +82,7 @@ namespace ACMEAPP.Controllers
         {
             try
             {
-                _employeeRepo.DeleteEmployee(employee);
-
+                _employeeRepo.DeleteEmployee(employee.EmployeeId);
                 return RedirectToAction("Index");
             }
             catch

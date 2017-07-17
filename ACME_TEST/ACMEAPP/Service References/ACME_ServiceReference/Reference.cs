@@ -248,10 +248,10 @@ namespace ACMEAPP.ACME_ServiceReference {
         System.Threading.Tasks.Task UpdateAsync(ACMEAPP.ACME_ServiceReference.EmployeeDTO person);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/Delete", ReplyAction="http://tempuri.org/IEmployeeService/DeleteResponse")]
-        void Delete(ACMEAPP.ACME_ServiceReference.EmployeeDTO person);
+        void Delete(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/Delete", ReplyAction="http://tempuri.org/IEmployeeService/DeleteResponse")]
-        System.Threading.Tasks.Task DeleteAsync(ACMEAPP.ACME_ServiceReference.EmployeeDTO person);
+        System.Threading.Tasks.Task DeleteAsync(int id);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetAll", ReplyAction="http://tempuri.org/IEmployeeService/GetAllResponse")]
         ACMEAPP.ACME_ServiceReference.EmployeeDTO[] GetAll();
@@ -309,12 +309,12 @@ namespace ACMEAPP.ACME_ServiceReference {
             return base.Channel.UpdateAsync(person);
         }
         
-        public void Delete(ACMEAPP.ACME_ServiceReference.EmployeeDTO person) {
-            base.Channel.Delete(person);
+        public void Delete(int id) {
+            base.Channel.Delete(id);
         }
         
-        public System.Threading.Tasks.Task DeleteAsync(ACMEAPP.ACME_ServiceReference.EmployeeDTO person) {
-            return base.Channel.DeleteAsync(person);
+        public System.Threading.Tasks.Task DeleteAsync(int id) {
+            return base.Channel.DeleteAsync(id);
         }
         
         public ACMEAPP.ACME_ServiceReference.EmployeeDTO[] GetAll() {

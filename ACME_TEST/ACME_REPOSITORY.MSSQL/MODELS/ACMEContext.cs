@@ -10,16 +10,6 @@ namespace ACME_REPOSITORY.MSSQL
 
         }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-            //Map entity to table 
-            //modelBuilder.Entity<Employee>().Map(sd => { sd.Properties(p => new { p.ID, p.FirstMidName, p.LastName });
-            //    sd.ToTable("Person"); })
-            //    .Map(si => { si.Properties(p => new { p.ID, p.EnrollmentDate });
-            //        si.ToTable("Employee"); });
-        }
-
 
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Person> Person { get; set; }

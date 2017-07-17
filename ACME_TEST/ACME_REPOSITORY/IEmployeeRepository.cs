@@ -18,7 +18,7 @@ namespace ACME_REPOSITORY
 
         EmployeeDTO Find(int id);
 
-        void Delete(EmployeeDTO entity);
+        void Delete(int id);
 
         IEnumerable<EmployeeDTO> All();
 

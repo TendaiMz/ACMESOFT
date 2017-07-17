@@ -1,11 +1,9 @@
-﻿using System;
+﻿using ACME_DOMAIN.CLASSES;
+using ACME_REPOSITORY.MSSQL.MODELS;
+using AutoMapper;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Linq.Expressions;
-using ACME_DOMAIN.CLASSES;
-using AutoMapper;
-using ACME_REPOSITORY.MSSQL.MODELS;
 
 namespace ACME_REPOSITORY.MSSQL
 {
@@ -15,12 +13,12 @@ namespace ACME_REPOSITORY.MSSQL
     /// <typeparam name="TEntity"></typeparam>
     public class MSSQLRepository : IEmployeeRepository
     {
-       
+
         private ACMEContext _context;
 
         public MSSQLRepository(ACMEContext context)
         {
-            _context = context;           
+            _context = context;
         }
         public IEnumerable<EmployeeDTO> All()
         {
@@ -28,32 +26,39 @@ namespace ACME_REPOSITORY.MSSQL
             return MapToDTOList(_context.Employee.Include(x => x.Person).ToList());
         }
 
-        public void Delete(EmployeeDTO employee)
+        public void Delete(int id)
         {
-            var empl = _context.Employee.Include(x => x.Person).First(y => y.EmployeeId == employee.EmployeeId);
-            _context.Employee.Remove(empl);
+            var employee = _context.Employee.Include(x => x.Person).First(y => y.EmployeeId == id);
+            var person = employee.Person;
+            _context.Employee.Remove(employee);
+            _context.Person.Remove(person);
             _context.SaveChanges();
         }
 
 
         public EmployeeDTO Find(int id)
         {
+            var kk = _context.Employee.Include(x => x.Person).First(y => y.EmployeeId == id);
             return MapToDTO(_context.Employee.Include(x => x.Person).First(y => y.EmployeeId == id));
         }
 
         public void Insert(EmployeeDTO employee)
         {
-            _context.Employee.Add(MapToEntity(employee));           
+            _context.Employee.Add(MapToEntity(employee));
             _context.SaveChanges();
         }
 
         public void Update(EmployeeDTO employee)
         {
-            _context.Employee.Attach(MapToEntity(employee));
+            var person = employee.Person;
             _context.Entry(MapToEntity(employee)).State = EntityState.Modified;
-            //_context.Person.Attach(MapToEntity(employee.Person));
-            //_context.Entry(MapToEntity(employee.Person)).State = EntityState.Modified;
             _context.SaveChanges();
+
+            //  _context.Employee.Attach(MapToEntity(employee));
+            //  _context.Entry(MapToEntity(employee)).State = EntityState.Modified;
+            //  _context.Person.Attach(MapToEntity(employee.Person));
+            //_context.Entry(MapToEntity(employee.Person)).State = EntityState.Modified;
+            //_context.SaveChanges();
         }
 
         private Person MapToEntity(PersonDTO personDTO)
@@ -112,7 +117,7 @@ namespace ACME_REPOSITORY.MSSQL
             return _employeesDTO;
         }
 
-      
+
     }
 
 
