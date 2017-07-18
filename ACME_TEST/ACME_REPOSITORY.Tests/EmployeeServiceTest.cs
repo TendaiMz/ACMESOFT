@@ -1,6 +1,4 @@
 ﻿using ACME_DOMAIN.CLASSES;
-using ACME_REPOSITORY.MSSQL.MODELS;
-using ACME_WCF;
 using ACME_WCF.Services;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -14,48 +12,48 @@ namespace ACME_REPOSITORY.Tests
     [TestClass]
     public class EmployeeServiceTest
     {
-        EmployeeDTO employeeDto = new EmployeeDTO();
-        Employee employeeEntity = new Employee();
+
+        EmployeeDTO SetUpEmployeeDTO()
+        {
+            EmployeeDTO employeeDto = new EmployeeDTO();
+            employeeDto.EmployedDate = DateTime.Parse("01/01/17");
+            employeeDto.EmployeeNumber = "AX100";
+            employeeDto.EmployeeId = 1;
+            return employeeDto;
+        }
+
 
         [TestMethod]
         public void Create_Employee_Should_Verify_EmployeeNumber()
         {
-         
-            employeeDto.EmployedDate = DateTime.Parse("01/01/17");
-            employeeDto.EmployeeNumber = "AX100";
-            employeeDto.EmployeeId = 1;
-           
+
+
+
             Mock<IEmployeeRepository> mockRepo = new Mock<IEmployeeRepository>();
-            mockRepo.Setup(x => x.Insert(employeeDto));           
+            mockRepo.Setup(x => x.Insert(SetUpEmployeeDTO()));
             EmployeeService employeeService = new EmployeeService(mockRepo.Object);
-            employeeService.Create(employeeDto);
-            mockRepo.Verify(x => x.Insert(It.Is<EmployeeDTO>(t => t.EmployeeNumber == "AX100")));           
+            employeeService.Create(SetUpEmployeeDTO());
+            mockRepo.Verify(x => x.Insert(It.Is<EmployeeDTO>(t => t.EmployeeNumber == "AX100")));
         }
 
         [TestMethod]
         public void Update_Person_Should_Verify_EmployeeId()
         {
-            employeeDto.EmployedDate = DateTime.Parse("01/01/17");
-            employeeDto.EmployeeNumber = "AX100";
-            employeeDto.EmployeeId = 1;
+
             Mock<IEmployeeRepository> mockRepo = new Mock<IEmployeeRepository>();
-            mockRepo.Setup(x => x.Update(employeeDto));
+            mockRepo.Setup(x => x.Update(SetUpEmployeeDTO()));
             EmployeeService employeeService = new EmployeeService(mockRepo.Object);
-            employeeService.Update(employeeDto);
+            employeeService.Update(SetUpEmployeeDTO());
             mockRepo.Verify(x => x.Update(It.Is<EmployeeDTO>(t => t.EmployeeId == 1)));
 
         }
-
-        public void Delete_Person_Should_Verify_EmployeeId()
+        [TestMethod]
+        public void Delete_Should_Verify_That_It_Called()
         {
-            employeeDto.EmployedDate = DateTime.Parse("01/01/17");
-            employeeDto.EmployeeNumber = "AX100";
-            employeeDto.EmployeeId = 1;
             Mock<IEmployeeRepository> mockRepo = new Mock<IEmployeeRepository>();
-            mockRepo.Setup(x => x.Delete(employeeDto.EmployeeId));
             EmployeeService employeeService = new EmployeeService(mockRepo.Object);
-            employeeService.Delete(employeeDto.EmployeeId);
-            //mockRepo.Verify(x => x.Delete(It.Is<int>());
+            employeeService.Delete(SetUpEmployeeDTO().EmployeeId);
+            mockRepo.Verify(x => x.Delete(SetUpEmployeeDTO().EmployeeId));
 
         }
 
@@ -106,15 +104,10 @@ namespace ACME_REPOSITORY.Tests
         }
 
         [TestMethod]
-        public void Get_Should_Not_Return_Null()
+        public void Get_Should_Not_Return_The_Correct_EmployeeId()
         {
-            
-            employeeDto.EmployedDate = DateTime.Parse("01/01/17");
-            employeeDto.EmployeeNumber = "AX100";
-            employeeDto.EmployeeId = 1;
-
             Mock<IEmployeeRepository> mockRepo = new Mock<IEmployeeRepository>();
-            mockRepo.Setup(x => x.Find(1)).Returns(employeeDto);
+            mockRepo.Setup(x => x.Find(1)).Returns(SetUpEmployeeDTO());
             EmployeeService employeeService = new EmployeeService(mockRepo.Object);
             employeeService.Get(1).EmployeeId.Should().Be(1);
         }
